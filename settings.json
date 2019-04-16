@@ -1,0 +1,95 @@
+{
+    "terminal.integrated.shell.windows": "C:\\\\WINDOWS\\\\System32\\\\wsl.exe",
+    "cSpell.userWords": [
+        "carlie"
+    ],
+    "workbench.startupEditor": "newUntitledFile",
+    "git.autofetch": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "window.zoomLevel": 0,
+    "editor.wordWrap": "on",
+    "files.autoSave": "afterDelay",
+    "workbench.colorTheme": "Universe",
+    "workbench.settings.editor": "json",
+    "workbench.settings.useSplitJSON": true,
+    "bracket-pair-colorizer-2.colors": [
+        "#2bdcff",
+        "#ff78b1",
+        "#bd93f9"
+    ],
+    "bracket-pair-colorizer-2.forceIterationColorCycle": true,
+    "vim.substituteGlobalFlag": true,
+    "vim.insertModeKeyBindingsNonRecursive": [ {
+        "before": ["k", "j"],
+        "after": ["<ESC>"]
+    }
+],
+    "vim.normalModeKeyBindingsNonRecursive": [
+    {
+        "before": ["<C-h>"],
+        "after": ["<C-w>", "h"]
+    },
+    {
+        "before": ["<C-j>"],
+        "after": ["<C-w>", "j"]
+    },
+    {
+        "before": ["<C-k>"],
+        "after": ["<C-w>", "k"]
+    },
+    {
+        "before": ["<C-l>"],
+        "after": ["<C-w>", "l"]
+    },
+    {
+        "before": ["<Leader>", "j"],
+        "after": ["J"]
+    },
+    {
+        "before": ["J"],
+        "after": ["5", "j"]
+    },
+    {
+        "before": ["K"],
+        "after": ["5", "k"]
+    },
+    {
+        "vim.leader": "<Space>"
+    },
+    {
+        "before": ["<Leader>", "t", "t"],
+        "commands": [":tabnew"]
+    },
+    {
+        "before": ["<Leader>", "t", "n"],
+        "commands": [":tabnext"]
+    },
+    {
+        "before": ["<Leader>", "t", "p"],
+        "commands": [":tabprev"]
+    },
+    {
+        "before": ["<Leader>", "t", "o"],
+        "commands": [":tabo"]
+    },
+    {
+        "before": ["u"],
+        "commands": ["undo"]
+    },
+    {
+        "before": ["<C-r>"],
+        "commands": ["redo"]
+    },
+],
+"peacock.affectActivityBar": true,
+"peacock.affectStatusBar": true,
+"peacock.favoriteColors": [
+    { "name": "Gatsby Purple", "value": "#639" },
+    { "name": "Auth0 Orange", "value": "#eb5424" },
+    { "name": "Azure Blue", "value": "#007fff" }
+],
+
+}
+
+
+

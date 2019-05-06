@@ -6,10 +6,13 @@
     "workbench.startupEditor": "newUntitledFile",
     "git.autofetch": true,
     "workbench.iconTheme": "material-icon-theme",
+    "breadcrumbs.enabled": true,
+    "explorer.openEditors.visible": 0,
+    "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
     "window.zoomLevel": 0,
     "editor.wordWrap": "on",
     "files.autoSave": "afterDelay",
-    "workbench.colorTheme": "Universe",
+    "workbench.colorTheme": "LaserWave",
     "workbench.settings.editor": "json",
     "workbench.settings.useSplitJSON": true,
     "bracket-pair-colorizer-2.colors": [
@@ -19,77 +22,31 @@
     ],
     "bracket-pair-colorizer-2.forceIterationColorCycle": true,
     "vim.substituteGlobalFlag": true,
-    "vim.insertModeKeyBindingsNonRecursive": [ {
+    "vim.insertModeKeyBindingsNonRecursive": [
+        {
         "before": ["k", "j"],
         "after": ["<ESC>"]
     }
-],
-    "vim.normalModeKeyBindingsNonRecursive": [
-    {
-        "before": ["<C-h>"],
-        "after": ["<C-w>", "h"]
+    ],
+    "editor.lineNumbers": "relative",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
     },
-    {
-        "before": ["<C-j>"],
-        "after": ["<C-w>", "j"]
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.maxColumn": 200,
+    "editor.minimap.showSlider": "always",
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": true,
+    "files.trimTrailingWhitespace": true,
+    "workbench.statusBar.feedback.visible": false,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+        {
+        "scope": "entity.name.function",
+        "settings": {
+            "fontStyle": "bold"
+        }
+        }
+    ]
     },
-    {
-        "before": ["<C-k>"],
-        "after": ["<C-w>", "k"]
-    },
-    {
-        "before": ["<C-l>"],
-        "after": ["<C-w>", "l"]
-    },
-    {
-        "before": ["<Leader>", "j"],
-        "after": ["J"]
-    },
-    {
-        "before": ["J"],
-        "after": ["5", "j"]
-    },
-    {
-        "before": ["K"],
-        "after": ["5", "k"]
-    },
-    {
-        "vim.leader": "<Space>"
-    },
-    {
-        "before": ["<Leader>", "t", "t"],
-        "commands": [":tabnew"]
-    },
-    {
-        "before": ["<Leader>", "t", "n"],
-        "commands": [":tabnext"]
-    },
-    {
-        "before": ["<Leader>", "t", "p"],
-        "commands": [":tabprev"]
-    },
-    {
-        "before": ["<Leader>", "t", "o"],
-        "commands": [":tabo"]
-    },
-    {
-        "before": ["u"],
-        "commands": ["undo"]
-    },
-    {
-        "before": ["<C-r>"],
-        "commands": ["redo"]
-    },
-],
-"peacock.affectActivityBar": true,
-"peacock.affectStatusBar": true,
-"peacock.favoriteColors": [
-    { "name": "Gatsby Purple", "value": "#639" },
-    { "name": "Auth0 Orange", "value": "#eb5424" },
-    { "name": "Azure Blue", "value": "#007fff" }
-],
-
 }
-
-
-

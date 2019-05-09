@@ -1,9 +1,11 @@
 {
-    "terminal.integrated.shell.windows": "C:\\\\WINDOWS\\\\System32\\\\wsl.exe",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorTheme": "LaserWave",
+    "workbench.settings.useSplitJSON": true,
+    "workbench.settings.editor": "json",
     "cSpell.userWords": [
         "carlie"
     ],
-    "workbench.startupEditor": "newUntitledFile",
     "git.autofetch": true,
     "workbench.iconTheme": "material-icon-theme",
     "breadcrumbs.enabled": true,
@@ -12,9 +14,6 @@
     "window.zoomLevel": 0,
     "editor.wordWrap": "on",
     "files.autoSave": "afterDelay",
-    "workbench.colorTheme": "LaserWave",
-    "workbench.settings.editor": "json",
-    "workbench.settings.useSplitJSON": true,
     "bracket-pair-colorizer-2.colors": [
         "#2bdcff",
         "#ff78b1",
@@ -48,5 +47,10 @@
         }
         }
     ]
+    },
+    "workbench.colorCustomizations": {
+        "terminal.ansiBrightGreen": "#FF79C6",
+        "terminal.ansiBrightBlue": "#8BE9FD",
+
     },
 }

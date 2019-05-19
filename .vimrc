@@ -25,6 +25,7 @@ filetype plugin indent on
 "  non-plugin stuff can go after this line
 
 syntax on
+set spell spelllang=en_au
 colorscheme dracula
 set number
 

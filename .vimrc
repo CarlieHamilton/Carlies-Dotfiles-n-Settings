@@ -8,6 +8,7 @@ call vundle#begin()
 " let Vundle manage Vundle
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'dracula/vim'
+Plugin 'tpope/vim-surround'
 
 " all plugins must be added before the following line
 call vundle#end()

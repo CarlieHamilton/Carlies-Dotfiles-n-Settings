@@ -1,24 +1,20 @@
-// Place your key bindings in this file to override the defaults
+// Place your key bindings in this file to override the defaultsauto[]
 [
     {
-        "key": "capslock",
-        "command": "extension.vim_escape",
-        "when": "editorTextFocus && vim.active && !inDebugRepl"
+        "key": "ctrl+shift+[Backquote]",
+        "command": "workbench.action.terminal.new"
     },
     {
-        "key": "ctrl+shift+[ backspace",
-        "command": "extension.vim_ctrl+[",
-        "when": "editorTextFocus && vim.active && vim.use<C-[> && !inDebugRepl"
+        "key": "ctrl+shift+`",
+        "command": "-workbench.action.terminal.new"
     },
     {
-        "key": "ctrl+[",
-        "command": "-extension.vim_ctrl+[",
-        "when": "editorTextFocus && vim.active && vim.use<C-[> && !inDebugRepl"
+        "key": "ctrl+[Backquote]",
+        "command": "workbench.action.terminal.toggleTerminal"
     },
     {
-        "key": "ctrl+shift+] backspace",
-        "command": "extension.vim_ctrl+]",
-        "when": "editorTextFocus && vim.active && vim.use<C-]> && !inDebugRepl"
+        "key": "ctrl+`",
+        "command": "-workbench.action.terminal.toggleTerminal"
     },
     {
         "key": "ctrl+]",
@@ -26,27 +22,31 @@
         "when": "editorTextFocus && vim.active && vim.use<C-]> && !inDebugRepl"
     },
     {
-        "key": "ctrl+k [",
-        "command": "extension.vim_ctrl+k",
-        "when": "editorTextFocus && vim.active && vim.use<C-k> && !inDebugRepl"
+        "key": "ctrl+[",
+        "command": "-extension.vim_ctrl+[",
+        "when": "editorTextFocus && vim.active && vim.use<C-[> && !inDebugRepl"
     },
     {
-        "key": "ctrl+k",
-        "command": "-extension.vim_ctrl+k",
-        "when": "editorTextFocus && vim.active && vim.use<C-k> && !inDebugRepl"
+        "key": "ctrl+b",
+        "command": "-extension.vim_ctrl+b",
+        "when": "editorTextFocus && vim.active && vim.use<C-b> && !inDebugRepl && vim.mode != 'Insert'"
     },
     {
-        "key": "ctrl+v b",
-        "command": "extension.vim_ctrl+v",
-        "when": "editorTextFocus && vim.active && vim.use<C-v> && !inDebugRepl"
+        "key": "ctrl+r",
+        "command": "-workbench.action.reloadWindow",
+        "when": "isDevelopment"
     },
     {
-        "key": "ctrl+v",
-        "command": "-extension.vim_ctrl+v",
-        "when": "editorTextFocus && vim.active && vim.use<C-v> && !inDebugRepl"
+        "key": "ctrl+r",
+        "command": "-workbench.action.openRecent"
     },
     {
-        "key": "ctrl+8 0",
+        "key": "ctrl+shift+r",
+        "command": "-editor.action.refactor",
+        "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+1 ctrl+1",
         "command": "extension.vim_ctrl+c",
         "when": "editorTextFocus && vim.active && vim.overrideCtrlC && vim.use<C-c> && !inDebugRepl"
     },
@@ -54,73 +54,21 @@
         "key": "ctrl+c",
         "command": "-extension.vim_ctrl+c",
         "when": "editorTextFocus && vim.active && vim.overrideCtrlC && vim.use<C-c> && !inDebugRepl"
+    }
+    {
+        "key": "ctrl+h",
+        "command": "workbench.action.navigateLeft"
     },
     {
-        "key": "ctrl+9 6",
-        "command": "extension.vim_ctrl+x",
-        "when": "editorTextFocus && vim.active && vim.use<C-x> && !inDebugRepl"
+        "key": "ctrl+l",
+        "command": "workbench.action.navigateRight"
     },
     {
-        "key": "ctrl+x",
-        "command": "-extension.vim_ctrl+x",
-        "when": "editorTextFocus && vim.active && vim.use<C-x> && !inDebugRepl"
+        "key": "ctrl+k",
+        "command": "workbench.action.navigateUp"
     },
     {
-        "key": "ctrl+9 6",
-        "command": "filesExplorer.cut",
-        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus"
-    },
-    {
-        "key": "ctrl+x",
-        "command": "-filesExplorer.cut",
-        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus"
-    },
-    {
-        "key": "ctrl+=",
-        "command": "editor.action.fontZoomIn"
-    },
-    {
-        "key": "ctrl+-",
-        "command": "editor.action.fontZoomOut"
-    },
-    {
-        "key": "ctrl+6 9",
-        "command": "extension.vim_ctrl+a",
-        "when": "editorTextFocus && vim.active && vim.use<C-a> && !inDebugRepl"
-    },
-    {
-        "key": "ctrl+a",
-        "command": "-extension.vim_ctrl+a",
-        "when": "editorTextFocus && vim.active && vim.use<C-a> && !inDebugRepl"
-    },
-    {
-        "key": "ctrl+6 9",
-        "command": "editor.action.webvieweditor.selectAll",
-        "when": "!editorFocus && !inputFocus && activeEditor == 'WebviewEditor'"
-    },
-    {
-        "key": "ctrl+a",
-        "command": "-editor.action.webvieweditor.selectAll",
-        "when": "!editorFocus && !inputFocus && activeEditor == 'WebviewEditor'"
-    },
-    {
-        "key": "ctrl+6 9",
-        "command": "editor.action.selectAll",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "ctrl+a",
-        "command": "-editor.action.selectAll",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "ctrl+v ctrl+v",
-        "command": "editor.action.clipboardPasteAction",
-        "when": "textInputFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+v",
-        "command": "-editor.action.clipboardPasteAction",
-        "when": "textInputFocus && !editorReadonly"
+        "key": "ctrl+j",
+        "command": "workbench.action.navigateDown"
     }
 ]

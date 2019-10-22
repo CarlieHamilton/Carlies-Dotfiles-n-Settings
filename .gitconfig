@@ -22,4 +22,4 @@
 	lo = pull origin
 	pom = push origin master
 	lom = pull origin master
-	
+	s = status

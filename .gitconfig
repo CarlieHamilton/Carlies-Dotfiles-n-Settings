@@ -5,6 +5,8 @@
 	email = carliemhamilton@gmail.com
 [push]
 	default = current
+[rebase]
+	autosquash = true
 [alias]
 	co = checkout
 	ec = config --global -e
@@ -15,7 +17,7 @@
 	wip = commit -am "WIP"
 	undo = reset HEAD~1 --mixed
 	amend = commit --amend
-	wipe = !git add -A && git commit -qm "WIPE SAVEPOINT" && git reset HEAD~1 --hard
+	wipe = !git add -A && git commit -m "Wipe-Save-Point" && git reset HEAD~1 --hard
 	p = push
 	l = pull
 	po = push origin
@@ -23,3 +25,9 @@
 	pom = push origin master
 	lom = pull origin master
 	s = status
+	a = add
+	c = commit
+	abort = rebase --abort
+	com = checkout master
+	b = branch
+	l = log --graph --decorate --pretty=oneline --abbrev-commit

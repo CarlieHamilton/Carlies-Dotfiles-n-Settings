@@ -174,3 +174,25 @@ function gitpublish() {
          git pull --prune;
      fi;
  }
+
+# This is my function to create a git repo in github
+gitnewrepo() {
+	mkdir "$1";
+	cd "$1";
+	git init;
+	echo "# "$1"" >> README.md;
+	echo "## "$2"" >> README.md;
+	echo "by Carlie Hamilton" >> README.md;
+	git add .;
+	git commit -m "initial commit";
+	curl -u 'BlueCodeThree' https://api.github.com/user/repos -d '{"name":"'"$1"'","description":"'"$2"'"}';
+	git remote add origin git@github.com:BlueCodeThree/"$1".git;
+	git push -u origin master;
+	echo "Your repo has now been created";
+}
+
+# create and move into a new directory
+cddir() {
+	mkdir "$1";
+	cd "$1";
+}

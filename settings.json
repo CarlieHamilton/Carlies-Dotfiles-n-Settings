@@ -27,7 +27,7 @@
         "after": ["<ESC>"]
     }
     ],
-    "editor.lineNumbers": "relative",
+    "editor.lineNumbers": "on",
     "[html]": {
         "editor.defaultFormatter": "vscode.html-language-features"
     },
@@ -53,4 +53,9 @@
         "terminal.ansiBrightBlue": "#8BE9FD",
 
     },
+    "vim.camelCaseMotion.enable": true,
+    "terminal.integrated.rendererType": "dom",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always"
 }

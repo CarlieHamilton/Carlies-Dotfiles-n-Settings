@@ -196,3 +196,11 @@ cddir() {
 	mkdir "$1";
 	cd "$1";
 }
+
+# adjust screen brightness
+# alias created in my ~/bash_aliases file to get the names of the monitors, just type "monitors"
+# $1 = monitor name
+# $2 = brightness. 0.5 will make it darker, 1 will be the same, 1.5 will make it brighter
+brightness() {
+	xrandr --output "$1" --brightness "$2";
+}

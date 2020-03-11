@@ -204,3 +204,9 @@ cddir() {
 brightness() {
 	xrandr --output "$1" --brightness "$2";
 }
+
+# gamma adjusts the contrast of the colour levels
+# the three thingies at the end are for red, green, yellow
+gamma() {
+	xrandr --output "$1" --gamma "$2":"$3":"$4";
+}

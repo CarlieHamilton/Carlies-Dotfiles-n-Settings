@@ -22,3 +22,12 @@ The location of the VS Code settings in linux:
 - Peacock
 - Vim
 - Wakatime
+
+## List of Other Settings and Repos and Things I Like To Have Installed
+
+### [Git Open](https://github.com/paulirish/git-open)
+
+Install via npm:
+```
+npm install --global git-open
+```

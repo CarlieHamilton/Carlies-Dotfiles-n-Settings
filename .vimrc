@@ -1,5 +1,6 @@
 set nocompatible
 filetype off
+set number
 
 " set runtime path to to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -60,3 +61,4 @@ endfunction
 
 autocmd BufRead *.{vader,vim}
       \ command! -buffer Test call s:exercism_tests()
+

@@ -3,3 +3,15 @@
 A collection of settings and dot files for my things!
 
 More details of what the things and stuff are coming soon one day when I am procrastinating from other important things...
+
+## List of VS Code Plugins
+
+- :emojisense:
+- BracketPair Colorizer 2
+- C#
+- Code Spell Checker
+- GitLens
+- LaserWave
+- markdownlint
+- Peacock
+- Vim

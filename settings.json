@@ -112,5 +112,10 @@
             "value": "#42b883"
         }
     ],
-    "workbench.editor.limit.enabled": true    
+    "workbench.editor.limit.enabled": true,
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true
+    }
 }

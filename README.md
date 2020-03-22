@@ -21,3 +21,4 @@ The location of the VS Code settings in linux:
 - markdownlint
 - Peacock
 - Vim
+- Wakatime

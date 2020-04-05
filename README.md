@@ -48,6 +48,7 @@ The location of the VS Code settings in linux:
 - LaserWave
 - markdownlint
 - Peacock
+- REST Client
 - Vim
 - Wakatime
 

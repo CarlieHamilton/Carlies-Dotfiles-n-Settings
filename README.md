@@ -47,6 +47,7 @@ The location of the VS Code settings in linux:
 - GitLens
 - LaserWave
 - markdownlint
+- Material Icon Theme
 - Peacock
 - REST Client
 - Vim

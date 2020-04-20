@@ -1,6 +1,5 @@
 # This is Git's per-user configuration file.
 [user]
-# Please adapt and uncomment the following lines:
 	name = BlueCodeThree
 	email = carliemhamilton@gmail.com
 [push]
@@ -19,11 +18,12 @@
 	amend = commit --amend
 	wipe = !git add -A && git commit -m "Wipe-Save-Point" && git reset HEAD~1 --hard
 	p = push
-	l = pull
+	pl = pull
 	po = push origin
-	lo = pull origin
+	plo = pull origin
 	pom = push origin master
-	lom = pull origin master
+	plom = pull origin master
+# Please adapt and uncomment the following lines:
 	s = status
 	a = add
 	c = commit

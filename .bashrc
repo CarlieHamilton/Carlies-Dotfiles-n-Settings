@@ -212,7 +212,7 @@ gamma() {
 }
 
 # pull a branch to review
-pullrequest() {
+pr() {
 	git fetch origin;
 	git checkout "$1";
 	git merge --ff-only @{upstream};

@@ -210,3 +210,10 @@ brightness() {
 gamma() {
 	xrandr --output "$1" --gamma "$2":"$3":"$4";
 }
+
+# pull a branch to review
+pullrequest() {
+	git fetch origin;
+	git checkout "$1";
+	git merge --ff-only @{upstream};
+}

@@ -23,7 +23,6 @@
 	plo = pull origin
 	pom = push origin master
 	plom = pull origin master
-# Please adapt and uncomment the following lines:
 	s = status
 	a = add
 	c = commit

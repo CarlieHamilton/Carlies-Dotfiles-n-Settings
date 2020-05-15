@@ -211,7 +211,8 @@ gamma() {
 	xrandr --output "$1" --gamma "$2":"$3":"$4";
 }
 
-# pull a branch to review
+# pull a branch to review. PR for pull request.
+# $1 = branch name
 pr() {
 	git fetch origin;
 	git checkout "$1";

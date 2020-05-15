@@ -55,6 +55,8 @@ The location of the VS Code settings in linux:
 
 ## List of Other Settings and Repos and Things I Like To Have Installed
 
+- [Emoji!](https://extensions.gnome.org/extension/1162/emoji-selector/)
+
 ### [Git Open](https://github.com/paulirish/git-open)
 
 Install via npm:

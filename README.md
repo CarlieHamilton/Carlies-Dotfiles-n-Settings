@@ -63,9 +63,11 @@ Plugins that maybe I like but I am just testing out:
 
 ## List of Other Settings and Repos and Things I Like To Have Installed
 
-- [Emoji!](https://extensions.gnome.org/extension/1162/emoji-selector/)
+### [Emoji!](https://extensions.gnome.org/extension/1162/emoji-selector/)
 
-and the [github](https://github.com/maoschanz/emoji-selector-for-gnome)
+This is so cool, I love this and couldn't survive without the emoji
+
+Istructions for installation in the [github](https://github.com/maoschanz/emoji-selector-for-gnome), but at this point in time just need to click my emoji header up there ⬆️ and that will lead to installation 😀 🎉
 
 ### [Git Open](https://github.com/paulirish/git-open)
 

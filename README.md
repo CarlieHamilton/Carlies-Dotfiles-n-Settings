@@ -2,7 +2,9 @@
 
 A collection of settings and dot files for my things!
 
-More details of what the things and stuff are coming soon one day when I am procrastinating from other important things...
+## Basic Instructions
+
+Copy the dot files to the root directory. Copy `keybindings.json` & `settings.json` to the [VS Code directory.](#VS-Code)
 
 ## Vim
 
@@ -53,9 +55,16 @@ The location of the VS Code settings in linux:
 - Vim
 - Wakatime
 
+Plugins that maybe I like but I am just testing out:
+
+- DotENV
+- Draw.io Integration
+- MDX
+
 ## List of Other Settings and Repos and Things I Like To Have Installed
 
 - [Emoji!](https://extensions.gnome.org/extension/1162/emoji-selector/)
+
 and the [github](https://github.com/maoschanz/emoji-selector-for-gnome)
 
 ### [Git Open](https://github.com/paulirish/git-open)

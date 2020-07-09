@@ -62,6 +62,18 @@ Plugins that maybe I like but I am just testing out:
 - Draw.io Integration
 - MDX
 
+### I might make a script to install plugins
+
+It's a thought. Have a look at [this page](https://stackoverflow.com/questions/34286515/how-to-install-visual-studio-code-extensions-from-command-line), Carlie.
+
+```
+code --list-extensions
+code --install-extension ms-vscode.cpptools
+code --uninstall-extension ms-vscode.csharp
+```
+
+and looking at the `call` keyword, although that mentions a `.bat` script. Ooh, I'm excited, I'm going to do this when I make time.
+
 ## List of Other Settings and Repos and Things I Like To Have Installed
 
 ### [Emoji!](https://extensions.gnome.org/extension/1162/emoji-selector/)

@@ -53,6 +53,7 @@ The location of the VS Code settings in linux:
 - Peacock
 - REST Client
 - Vim
+- vscode-styled-components
 - Wakatime
 
 Plugins that maybe I like but I am just testing out:

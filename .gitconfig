@@ -30,3 +30,4 @@
 	com = checkout master
 	b = branch
 	l = log --graph --decorate --pretty=oneline --abbrev-commit
+	sup = push -u origin HEAD

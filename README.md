@@ -46,6 +46,8 @@ The location of the VS Code settings in linux:
 - BracketPair Colorizer 2
 - C#
 - Code Spell Checker
+- Code Time (Thinking of this to replace Wakatime)
+- Error Lens
 - GitLens
 - LaserWave
 - markdownlint
@@ -61,12 +63,13 @@ Plugins that maybe I like but I am just testing out:
 - DotENV
 - Draw.io Integration
 - MDX
+- TabNine
 
 ### I might make a script to install plugins
 
 It's a thought. Have a look at [this page](https://stackoverflow.com/questions/34286515/how-to-install-visual-studio-code-extensions-from-command-line), Carlie.
 
-```
+```bash
 code --list-extensions
 code --install-extension ms-vscode.cpptools
 code --uninstall-extension ms-vscode.csharp
@@ -85,6 +88,7 @@ Istructions for installation in the [github](https://github.com/maoschanz/emoji-
 ### [Git Open](https://github.com/paulirish/git-open)
 
 Install via npm:
-```
+
+```bash
 npm install --global git-open
 ```

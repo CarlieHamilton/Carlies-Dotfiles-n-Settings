@@ -8,13 +8,13 @@ Copy the dot files to the root directory. Copy `keybindings.json` & `settings.js
 
 ## Vim
 
-```
+```console
  sudo apt-get install vim
  ```
 
 ### Make it default❗️
 
-```
+```console
 sudo update-alternatives --config editor
 ```
 
@@ -24,13 +24,12 @@ sudo update-alternatives --config editor
 
 1. Git clone [vundle](https://github.com/VundleVim/Vundle.vim)
 
-```
+```console
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
 
 2. Make sure I have copied over my `.vimrc`
 3. Install plugins from command line - `vim +PluginInstall +qall`
-
 
 ## VS Code
 
@@ -69,7 +68,7 @@ Plugins that maybe I like but I am just testing out:
 
 It's a thought. Have a look at [this page](https://stackoverflow.com/questions/34286515/how-to-install-visual-studio-code-extensions-from-command-line), Carlie.
 
-```bash
+```console
 code --list-extensions
 code --install-extension ms-vscode.cpptools
 code --uninstall-extension ms-vscode.csharp
@@ -89,6 +88,6 @@ Istructions for installation in the [github](https://github.com/maoschanz/emoji-
 
 Install via npm:
 
-```bash
+```console
 npm install --global git-open
 ```

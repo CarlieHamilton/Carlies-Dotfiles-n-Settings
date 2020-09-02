@@ -53,6 +53,7 @@ The location of the VS Code settings in linux:
 - Material Icon Theme
 - Peacock
 - REST Client
+- SQL Server(mssql)
 - Vim
 - vscode-styled-components
 - Wakatime

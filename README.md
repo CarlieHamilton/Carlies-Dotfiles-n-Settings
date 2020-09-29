@@ -91,8 +91,8 @@ Install via npm:
 
 ```console
 npm install --global git-open
+```
 
 ### Handy programs to install as needed
 
-* Flameshot - screenshotting tool
-```
+- Flameshot - screenshotting tool

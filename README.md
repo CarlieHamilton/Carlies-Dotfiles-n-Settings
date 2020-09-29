@@ -83,7 +83,7 @@ and looking at the `call` keyword, although that mentions a `.bat` script. Ooh, 
 
 This is so cool, I love this and couldn't survive without the emoji
 
-Istructions for installation in the [github](https://github.com/maoschanz/emoji-selector-for-gnome), but at this point in time just need to click my emoji header up there ⬆️ and that will lead to installation 😀 🎉
+Instructions for installation in the [github](https://github.com/maoschanz/emoji-selector-for-gnome), but at this point in time just need to click my emoji header up there ⬆️ and that will lead to installation 😀 🎉
 
 ### [Git Open](https://github.com/paulirish/git-open)
 
@@ -91,4 +91,8 @@ Install via npm:
 
 ```console
 npm install --global git-open
+
+### Handy programs to install as needed
+
+* Flameshot - screenshotting tool
 ```

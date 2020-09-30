@@ -117,5 +117,9 @@
         "**/.git/objects/**": true,
         "**/.git/subtree-cache/**": true,
         "**/node_modules/*/**": true
+    },
+    "tabnine.experimentalAutoImports": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
     }
 }

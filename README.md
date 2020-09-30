@@ -46,6 +46,7 @@ The location of the VS Code settings in linux:
 - C#
 - Code Spell Checker
 - Code Time (Thinking of this to replace Wakatime)
+- ESLint
 - Error Lens
 - GitLens
 - LaserWave

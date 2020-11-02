@@ -1,6 +1,6 @@
 # This is Git's per-user configuration file.
 [user]
-	name = BlueCodeThree
+	name = CarlieHamilton
 	email = carliemhamilton@gmail.com
 [push]
 	default = current

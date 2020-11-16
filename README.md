@@ -97,3 +97,4 @@ npm install --global git-open
 ### Handy programs to install as needed
 
 - Flameshot - screenshotting tool
+- [Stretchly](https://hovancik.net/stretchly/downloads/) - so I take all the breaks. [Repo](https://github.com/hovancik/stretchly)

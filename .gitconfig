@@ -31,3 +31,5 @@
 	b = branch
 	l = log --graph --decorate --pretty=oneline --abbrev-commit
 	sup = push -u origin HEAD
+	yeet = push --force-with-lease
+	here = branch --show-current
